@@ -1,0 +1,154 @@
+body {
+	background: url('../../images/bg.jpg');
+}
+
+h5 {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 900;
+  padding:0;
+  margin:0;
+}
+
+#map_canvas {
+    position: relative;
+    overflow: hidden;
+    height:237px;
+    border:5px solid black;
+}
+
+p {
+	font-family: Arial;
+	font-size: 13px;
+  padding:0;
+  margin-bottom:9px;
+  text-align: justify;
+}
+
+.header {
+	padding-bottom: 1%;
+}
+
+.top {
+  padding-top: 2%;
+  padding-bottom: 0px;
+}
+
+.home {
+  padding-top:0;
+  margin-top:0;
+  height: 30px;
+}
+
+.nav {
+  padding-top: 0%;
+}
+
+.par {
+  margin-bottom: 4.3%;
+}
+
+.nudge {
+  margin-left:20px;
+}
+
+.picnudge {
+  margin-left:195px;
+  margin-top: 2%;
+}
+
+.hope {
+  margin-top: 23px;
+}
+
+.trail {
+  margin-top: 27px;
+}
+
+.grid_2 {
+  margin-left: 8.5px;
+  margin-right: 8.5px;
+}
+
+.grid_10 {
+  margin-left:4px;
+}
+.title {
+  margin-left:10px;
+}
+
+.block {
+  min-height:523px;
+}
+
+.lefty p {
+  text-align: left;
+}
+
+.down {
+  padding-top: 5px;
+}
+
+.downmore {
+  padding-top: 8px;
+}
+
+.picdown {
+  padding-top: 78px;
+}
+
+.picdown2 {
+  padding-top: 85px;
+}
+
+a { color: inherit; } 
+
+.splash {
+ margin-top: 300px;
+}
+
+  article, aside, figure, footer, header, hgroup,
+  menu, nav, section { display: block; }
+ 
+  #logo {
+    display: none;
+  }
+ 
+
+#fader {
+
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+       -moz-animation: fadein 2s; /* Firefox */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
